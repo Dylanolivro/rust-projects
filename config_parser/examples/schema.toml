@@ -1,0 +1,23 @@
+[server.host]
+type = "string"
+required = true
+
+[server.port]
+type = "integer"
+min = 1
+max = 65535
+required = true
+
+[server.debug]
+type = "boolean"
+default = true
+
+[database.url]
+type = "string"
+required = true
+
+[database.max_connections]
+type = "integer"
+min = 1
+max = 100
+default = 5

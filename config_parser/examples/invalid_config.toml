@@ -1,0 +1,9 @@
+# Config with multiple errors
+[server]
+host = 1234
+port = 99999
+debug = "yes"
+
+[database]
+url = "postgres://localhost/mydb"
+max_connections = 200
